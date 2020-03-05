@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C6CE6793240FEF15005038A8"
-               BuildableName = "Moya-Demo-Swift.app"
-               BlueprintName = "Moya-Demo-Swift"
-               ReferencedContainer = "container:Moya-Demo.xcodeproj">
+               BlueprintIdentifier = "C6CE67C0240FF071005038A8"
+               BuildableName = "Moya-Demo-Finished-RxSwift.app"
+               BlueprintName = "Moya-Demo-Finished-RxSwift"
+               ReferencedContainer = "container:Moya-Demo-Finished.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,10 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <CodeCoverageTargets>
+      </CodeCoverageTargets>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -44,12 +48,14 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6CE6793240FEF15005038A8"
-            BuildableName = "Moya-Demo-Swift.app"
-            BlueprintName = "Moya-Demo-Swift"
-            ReferencedContainer = "container:Moya-Demo.xcodeproj">
+            BlueprintIdentifier = "C6CE67C0240FF071005038A8"
+            BuildableName = "Moya-Demo-Finished-RxSwift.app"
+            BlueprintName = "Moya-Demo-Finished-RxSwift"
+            ReferencedContainer = "container:Moya-Demo-Finished.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -61,10 +67,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6CE6793240FEF15005038A8"
-            BuildableName = "Moya-Demo-Swift.app"
-            BlueprintName = "Moya-Demo-Swift"
-            ReferencedContainer = "container:Moya-Demo.xcodeproj">
+            BlueprintIdentifier = "C6CE67C0240FF071005038A8"
+            BuildableName = "Moya-Demo-Finished-RxSwift.app"
+            BlueprintName = "Moya-Demo-Finished-RxSwift"
+            ReferencedContainer = "container:Moya-Demo-Finished.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
