@@ -112,4 +112,13 @@ extension ViewController {
     private func searchWithRx(query: String) {
         // Need implement.
     }
+    
+    private func handleSuccessResponse(_ response: Response) {
+        do {
+            let searchResult = try JSONDecoder().decode(GithubSearchUser.self, from: response.data)
+            usersSubject.onNext(searchResult.items)
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
 }
