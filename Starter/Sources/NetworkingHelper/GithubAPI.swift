@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  GithubAPI.swift
 //  The MIT License (MIT)
 //
 //  Copyright (c) 2020 Kyujin Kim
@@ -22,23 +22,5 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-
-        let newWindow = UIWindow()
-        let viewController = ViewController()
-        let navigationController = UINavigationController(rootViewController: viewController)
-        newWindow.rootViewController = navigationController
-        newWindow.makeKeyAndVisible()
-        self.window = newWindow
-        return true
-    }
-}
-
+import Foundation

@@ -1,3 +1,4 @@
 github "ReactiveX/RxSwift" ~> 5.0
 github "SnapKit/SnapKit" ~> 5.0.0
 github "Moya/Moya" ~> 14.0
+github "onevcat/Kingfisher" ~> 5.0
